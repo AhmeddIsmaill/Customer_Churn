@@ -1,0 +1,18 @@
+2025-05-08 18:16:38,117 - Failed to fetch best model: INVALID_PARAMETER_VALUE: Invalid order_by clause 'metrics.test_f1-score DESC'. Could not be parsed.
+2025-05-08 18:19:01,282 - Failed to fetch best model: INVALID_PARAMETER_VALUE: Invalid order_by clause 'metrics.test_f1-score DESC'. Could not be parsed.
+2025-05-08 18:21:26,099 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Contract_Month_to_month
+- Contract_One_year
+- InternetService_DSL
+- InternetService_Fiber_optic
+- PaymentMethod_Bank transfer (automatic)
+Feature names seen at fit time, yet now missing:
+- Contract_One year
+- Contract_Two year
+- InternetService_Fiber optic
+- InternetService_No
+- PaymentMethod_Mailed check
+
+2025-05-08 18:25:23,798 - INFO - INPUT: {'gender': 1, 'SeniorCitizen': 0, 'Partner': 1, 'Dependents': 0, 'PhoneService': 1, 'PaperlessBilling': 1, 'MonthlyCharges': 75.2, 'InternetService_Fiber optic': 1, 'InternetService_No': 0, 'Contract_One year': 0, 'Contract_Two year': 1, 'PaymentMethod_Credit card (automatic)': 1, 'PaymentMethod_Electronic check': 0, 'PaymentMethod_Mailed check': 0, 'TotalCharges_boxcox': 4.21, 'tenure_cbrt': 2.46, 'TotalServices': 6, 'HasPremiumSupport': 1, 'AvgMonthlySpend': 74.15} | PREDICTION: 0 | PROBABILITY: 0.1350
+2025-05-08 18:25:34,671 - INFO - INPUT: {'gender': 1, 'SeniorCitizen': 0, 'Partner': 1, 'Dependents': 0, 'PhoneService': 1, 'PaperlessBilling': 1, 'MonthlyCharges': 75.2, 'InternetService_Fiber optic': 1, 'InternetService_No': 0, 'Contract_One year': 0, 'Contract_Two year': 1, 'PaymentMethod_Credit card (automatic)': 1, 'PaymentMethod_Electronic check': 0, 'PaymentMethod_Mailed check': 0, 'TotalCharges_boxcox': 4.21, 'tenure_cbrt': 2.46, 'TotalServices': 6, 'HasPremiumSupport': 1, 'AvgMonthlySpend': 74.15} | PREDICTION: 0 | PROBABILITY: 0.1350

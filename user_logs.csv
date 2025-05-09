@@ -1,0 +1,6 @@
+timestamp,prediction,probability,gender,SeniorCitizen,Partner,Dependents,PhoneService,PaperlessBilling,MonthlyCharges,InternetService_Fiber optic,InternetService_No,Contract_One year,Contract_Two year,PaymentMethod_Credit card (automatic),PaymentMethod_Electronic check,PaymentMethod_Mailed check,TotalCharges_boxcox,tenure_cbrt,TotalServices,HasPremiumSupport,AvgMonthlySpend
+2025-05-08T19:06:17.821910,0,0.135,1,0,1,0,1,1,75.2,1,0,0,1,1,0,0,4.21,2.46,6,1,74.15
+2025-05-08T19:09:37.417882,0,0.135,1,0,1,0,1,1,75.2,1,0,0,1,1,0,0,4.21,2.46,6,1,74.15
+2025-05-08T19:16:40.326103,0,0.235,1,1,0,1,1,0,96.35,0,0,0,1,1,1,0,2.19,8.85,3,1,60.0
+2025-05-09T11:27:18.764949,0,0.135,1,0,1,0,1,1,75.2,1,0,0,1,1,0,0,4.21,2.46,6,1,74.15
+2025-05-09T11:30:13.833230,0,0.295,1,1,1,1,0,0,42.19,1,0,1,0,1,1,1,5.49,1.11,5,1,80.21
